@@ -16,10 +16,10 @@ body{
 main{
     width: 90%;
     min-height: 100vh;
-    background-color: white;
+    background-color: black
 }
 nav{
-    width: 100%;
+    width: 90%;
     min-height: 10vh;
     /* border: 1px solid red; */
     background-image: linear-gradient(to right,black,tomato,yellow);
@@ -31,7 +31,7 @@ nav{
 }
 
 .logo{
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 ul{
@@ -40,6 +40,7 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 
 a{
@@ -47,6 +48,12 @@ a{
     font-family: 'Poppins', sans-serif;
     color: #440381;
     font-weight: bold;
+}
+
+.navbar-link{
+    text-decoration: none;
+
+    color: #143d59;
 }
 
 a:hover{
