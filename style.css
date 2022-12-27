@@ -13,13 +13,17 @@ body{
     align-items: center;
     background-color: grey;
 }
+header{
+    width: 100%;
+
+}
 main{
-    width: 90%;
+    width: 100%;
     min-height: 100vh;
     background-color: wheat
 }
 nav{
-    width: 90%;
+    width: 100%;
     min-height: 10vh;
     /* border: 1px solid red; */
     background: rgb(11,11,11);
@@ -37,7 +41,7 @@ nav{
 }
 
 ul{
-    gap: 20px;
+    gap: 100px;
     margin-right: 100px;
     display: flex;
     flex-direction: row;
