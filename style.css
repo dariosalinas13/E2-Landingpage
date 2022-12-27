@@ -1,4 +1,4 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); </style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -7,11 +7,14 @@
     text-decoration: none;
     list-style-type: none;
 }
+
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    background-color: white
+    
 }
 header{
     width: 100%;
@@ -63,5 +66,98 @@ a{
 
 a:hover{
     color:  #ff6800
+}
+
+main{
+    width: 90%;
+    min-height: 100vh;
+    background-color: white;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid green;
+}
+
+div{
+    border: 1px solid red;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.cont-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-logo{
+    min-width: 200px;
+    min-height: 200px;
+    width: 75%;
+    height: 75%;
+}
+
+.hero-txt{
+    width: 50%;
+    height: 100%;
+
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* justify content alinea las cosas en el eje vertical */
+    align-items: center; /* aling items alinea los objetos en el eje horizontal */
+}
+
+.hero-txt-action{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-action{
+    background-color: black; /* background siempre es el fondo */
+    color: white; /* color siempre se refiere a la letra */
+    padding: 5px; /* margen interior del objeto */
+    border-radius: 15px; /* para redondear los bordes */
+}
+
+.btn-learn{
+    padding: 5px; /* margen interior del objeto */
+    border-radius: 15px; /* para redondear los bordes */
+    border: 2px solid black; /* le da color al borde del objeto */
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* para elegir la fuente */
+    font-size: 40px; /* tamaño de la letra */    
+}
+.hero-txt p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic; /* para poner la letra en cursiva */
+}
+
+/* estilo section "descripcion" */
+
+.descripcion{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descripcion p{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
 }
 
